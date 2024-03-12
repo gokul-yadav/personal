@@ -489,6 +489,10 @@ main {
 
 
 
+.navbar-link {
+  font-size: calc(var(--fs-8) * 1.5); /* Increase the font size by 50% */
+  /* Other existing styles */
+}
 
 
 /*-----------------------------------*\
@@ -1382,11 +1386,17 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+.navbar {
+    border-radius: 40px 40px 0 0; /* Double the border radius values */
+}
 
-  .navbar-list { gap: 20px; }
+.navbar-list {
+    gap: 40px; /* Double the gap value */
+}
 
-  .navbar-link { --fs-8: 14px; }
+.navbar-link {
+    --fs-8: 28px; /* Double the font size value */
+}
 
 
 
